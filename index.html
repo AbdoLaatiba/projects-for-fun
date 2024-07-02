@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects for fun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.7rem;
+            color: #111;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        .description {
+            text-align: center;
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 40px;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        li {
+            margin: 10px;
+            padding-left: 30px;
+            position: relative;
+        }
+        li::before {
+            content: "🔗";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            transition: all 0.3s ease-in-out;
+        }
+        a:hover {
+            color: #666;
+            transform: translateX(5px) ;
+        }
+        a b {
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 8px;
+        }
+        a p {
+            font-size: 0.9em;
+            margin-top: 0;
+            color: #666;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">
+        Projects for fun
+    </h1>
+    <p class="description">
+        Check out some of the projects I've created for fun.
+    </p>
+    <ul>
+        <li>
+            <a href="spider-web/index.html">
+                <b>Spider Web Animation</b>
+                <p>
+                    A simple spider web animation created using HTML and CSS.
+                </p>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
